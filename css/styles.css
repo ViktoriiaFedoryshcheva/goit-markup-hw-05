@@ -89,6 +89,8 @@ body {
 .menu_list_link {
 	position: relative;
 	overflow: hidden;
+
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active_link::after {
@@ -138,9 +140,7 @@ body {
 .contact_mail,
 .contact_tel {
 	color: #757575;
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active_link,
 .menu_list_link:hover,
